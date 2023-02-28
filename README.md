@@ -15,7 +15,8 @@ Penn Software License. See LICENSE.txt for further details.
 ## Dependencies
 
 Most of the dependencies are standard including `Eigen`, `OpenCV`, and `Boost`. The standard shipment from Ubuntu 16.04 and ROS Kinetic works fine. One special requirement is `suitesparse`, which can be installed through,
-
+# Update 
+Also tested for Ubuntu 20.04 ROS Noetic with OpenCV 4.2
 ```
 sudo apt-get install libsuitesparse-dev
 ```
