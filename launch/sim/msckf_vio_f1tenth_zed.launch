@@ -3,10 +3,10 @@
   <arg name="robot" default="/"/>
   <arg name="fixed_frame_id" default="world"/>
   <arg name="calibration_file"
-    default="$(find msckf_vio)/config/camchain-imucam-f1tenth-zed.yaml"/>
+    default="$(find msckf_vio)/config/sim/camchain-imucam-f1tenth-zed.yaml"/>
 
   <!-- Image Processor Nodelet  -->
-  <include file="$(find msckf_vio)/launch/image_processor_f1tenth_zed.launch">
+  <include file="$(find msckf_vio)/launch/sim/image_processor_f1tenth_zed.launch">
     <arg name="robot" value="$(arg robot)"/>
     <arg name="calibration_file" value="$(arg calibration_file)"/>
   </include>

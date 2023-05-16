@@ -20,7 +20,7 @@
       <!-- Calibration parameters -->
       <rosparam command="load" file="$(arg calibration_file)"/>
 
-      <param name="publish_tf" value="true"/>
+      <param name="publish_tf" value="false"/>
       <param name="frame_rate" value="20"/>
       <param name="fixed_frame_id" value="$(arg fixed_frame_id)"/>
       <param name="child_frame_id" value="odom"/>
